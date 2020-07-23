@@ -7,7 +7,7 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "galaxy.js",
   "scripts": {
-    "start": "nodemon galaxy.js"
+    "start": "node galaxy.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
