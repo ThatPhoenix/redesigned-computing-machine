@@ -7,13 +7,13 @@ var version = "1";
 
 
 const prefix = ".sm ";
-console.log(chalk.cyan(`Starting up SAIMIANNI V${version} made with love by Phoenix <3`));
+console.log(`Starting up SAIMIANNI V${version} made with love by Phoenix <3`);
 
 galaxy.on("ready", () => {
  
-  console.log(chalk.bgGreen(`[ProcessManager] SAIMIANNI V${version} has started up and connected to the DiscordAPI successfully.`));
+  console.log(`[ProcessManager] SAIMIANNI V${version} has started up and connected to the DiscordAPI successfully.`);
 
-  console.log(chalk.magenta(`[SAIMIANNI] I have started at ${new Date()}! Yay for Premium Corporation!`))
+  console.log(`[SAIMIANNI] I have started at ${new Date()}! Yay for Premium Corporation!`);
 });
 
 galaxy.on("message", message => {
